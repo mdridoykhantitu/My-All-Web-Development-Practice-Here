@@ -1,0 +1,101 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+.one{
+	
+	width:200px;
+	height:200px;
+	overflow:visible;
+	
+}
+
+
+
+.two{
+	
+	width:200px;
+	height:200px;
+	overflow:hidden;
+	
+}
+
+
+
+
+.three{
+	
+	width:200px;
+	height:200px;
+	overflow:auto;
+	
+}
+
+
+
+
+.four{
+	
+	width:200px;
+	height:200px;
+	overflow:scroll;
+	
+}
+
+
+
+
+
+.five{
+	
+	width:200px;
+	height:200px;
+	overflow-X:hidden;
+	
+}
+
+
+
+
+
+.six{
+	
+	width:200px;
+	height:200px;
+	overflow-Y:hidden;
+	
+}
+
+
+
+.ten{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	overflow:auto;
+	
+}
+
+
+
+
+
+
+.eleven{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	overflow:scroll;
+	
+}
+
+
+
+

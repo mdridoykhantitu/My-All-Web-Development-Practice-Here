@@ -1,0 +1,49 @@
+
+*{
+	
+margin:0;
+padding:0;
+overflow:hidden;
+
+}
+
+
+
+#full{
+
+	margin:100px;
+	
+}
+
+
+
+.one{
+	
+	background:orange;
+	width:250px;
+	padding:20px;
+	margin:opx;
+	font-size:20px;
+	border:2px solid #fff;
+	
+}
+
+
+
+.one:hover{
+	
+	background:red;
+	width:250px;
+	
+}
+
+
+
+a{
+	
+text-decoration:none;
+color:white;
+	
+}
+
+

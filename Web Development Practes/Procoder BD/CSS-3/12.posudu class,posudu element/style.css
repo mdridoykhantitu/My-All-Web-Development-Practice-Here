@@ -1,0 +1,312 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+
+.menu{
+	
+	margin:100px 0;
+	
+}
+
+.menu ul{
+	
+	text-align:center;
+	
+}
+
+.menu ul li{
+	display:inline-block;
+	
+}
+
+.menu ul li a{
+
+	font-size:50px;
+	margin-right:30px;
+	
+}
+
+
+
+.menu a:link{
+	
+	background-color:yellow;
+	color:green;
+	
+}
+
+.menu a:visited{
+	
+	background-color:red;
+	color:aqua;	
+	
+}
+
+.menu a:hover{
+	
+	background-color:blue;
+	color:violet;
+	text-decoration:none;
+	
+}
+
+
+
+.md{
+	
+margin:100px 0;
+	
+}
+
+.md ul{
+	text-align:center;
+	font-size:50px;
+	margin-right:30px;
+	
+}
+
+.md ul li:first-child{
+color:yellow;
+
+}
+
+.md ul li:last-child{
+	
+color:red;
+
+}
+
+
+
+.eight{
+	
+margin:100px;
+text-align:center;
+
+}
+
+.table{
+	
+	width:100%;
+	border-collapse:collapse;
+	
+}
+
+.table tr:nth-child(2n+1){
+	background-color:green;
+	color:red;
+	
+}
+
+.table tr:nth-child(2n+2){
+	background-color:aqua;
+	color:yellow;
+	
+}
+
+
+
+.table th{
+	
+	font-size:30px;
+	background:red;
+	color:white;
+	padding:20px;
+	
+}
+
+.table td{
+	
+	text-align:center;
+	border:2px solid brown;
+	padding:10px;
+	font-size:25px;
+	
+}
+
+
+
+
+
+
+
+.one{
+	
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	display:block;
+	float:none;
+
+	
+}
+
+
+
+.two{
+	
+	width:200px;
+	height:200px;
+	overflow:hidden;
+
+}
+
+
+
+
+.three{
+	
+	width:200px;
+	height:200px;
+	overflow:auto;
+	margin:0 auto;
+	
+}
+
+
+
+
+.four{
+	
+	width:200px;
+	height:200px;
+	overflow:scroll;
+	
+}
+
+
+
+
+
+.five{
+	
+	width:200px;
+	height:200px;
+	overflow-X:hidden;
+	
+}
+
+
+
+
+
+.six{
+	
+	width:200px;
+	height:200px;
+	overflow-Y:hidden;
+	
+}
+
+
+
+
+
+
+
+
+
+
+h1{
+	
+	float:none;
+	text-align:center;
+	font-size:40px;
+	font-family:roboto;
+	color:aqua;
+	text-transform:uppercase;
+	position:relative;
+	padding-bottom:5px;
+	padding-top:5px;
+	
+}
+
+h1::after{
+	position:absolute;
+	content:"";
+	background:red;
+	width:100px;
+	height:5px;
+	bottom:0;
+	left:50%;
+	margin-left:-50px;
+	
+}
+
+h1::before{
+	position:absolute;
+	content:"";
+	background:red;
+	width:100px;
+	height:5px;
+	top:0;
+	left:50%;
+	margin-left:-50px;
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ten{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	overflow:auto;
+	background-color:violet;
+	color:white;
+	text-align:center;
+
+	
+}
+
+
+.ten p::first-line{ color:blue;}
+
+
+
+.eleven{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	background-image:url(images/000.jpg);
+	overflow:scroll;
+	text-align:justify;
+	
+	
+}
+
+
+.eleven p::first-line{ color:yellow;}
+
+
+
+.big p::first-line{ color:aqua;}
+
+
+
+.big p::first-letter{ color:red; font-size:100px; font-family:roboto;}
+
+
+
+
+
+
+

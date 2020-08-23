@@ -1,0 +1,36 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+div{
+	
+	margin:50px;
+	
+}
+
+
+li{
+
+	display:inline-block;
+	
+}
+
+
+a{
+	
+	background:red;
+	color:white;
+	margin-right:10px;
+	padding:20px;
+	font-size:50px;
+	
+}
+
+
+
+
+

@@ -1,0 +1,121 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+.one{
+	
+	width:200px;
+	height:200px;
+	margin:0 auto;
+	display:block;
+	float:none;
+
+	
+}
+
+
+
+.two{
+	
+	width:200px;
+	height:200px;
+	overflow:hidden;
+
+}
+
+
+
+
+.three{
+	
+	width:200px;
+	height:200px;
+	overflow:auto;
+	margin:0 auto;
+	
+}
+
+
+
+
+.four{
+	
+	width:200px;
+	height:200px;
+	overflow:scroll;
+	
+}
+
+
+
+
+
+.five{
+	
+	width:200px;
+	height:200px;
+	overflow-X:hidden;
+	
+}
+
+
+
+
+
+.six{
+	
+	width:200px;
+	height:200px;
+	overflow-Y:hidden;
+	
+}
+
+
+
+h1{
+	
+	float:none;
+	text-align:right;
+	
+}
+
+
+
+.ten{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	overflow:auto;
+	background-color:violet;
+	color:white;
+	text-align:center;
+
+	
+}
+
+
+
+
+
+
+.eleven{
+	
+	width:200px;
+	height:200px;
+	margin:50px;
+	background-image:url(images/000.jpg);
+	overflow:scroll;
+	text-align:justify;
+	op
+	
+}
+
+
+
+

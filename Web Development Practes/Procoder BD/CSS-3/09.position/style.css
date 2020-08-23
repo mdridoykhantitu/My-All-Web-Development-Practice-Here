@@ -1,0 +1,41 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+
+.one{
+	
+	background:violet;
+	
+}
+
+
+
+img{
+	
+	/*
+	position:static;
+	position:fixed;
+	position:relative;
+	position:absolute;
+	*/
+	
+	position:sticky;
+	top:0px;
+	left:50px;
+	
+}
+
+
+
+.three{
+	
+	background-color:red;	
+
+}
+

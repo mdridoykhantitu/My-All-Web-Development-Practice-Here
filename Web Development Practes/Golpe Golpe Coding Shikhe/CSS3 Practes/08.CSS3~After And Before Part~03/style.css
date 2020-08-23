@@ -1,0 +1,129 @@
+
+
+
+.After-And-Before-Part3{
+	
+	margin-top:200px;
+	padding:0;
+		
+}
+
+
+
+.my-button{
+
+	font-size:30px;
+	font-weight:1000;
+	text-align:center;
+	
+}
+
+
+
+.my-button h2{
+	
+	overflow:hidden;
+	display:inline-block;
+	border:2px solid red;
+	padding:10px 40px;
+	color:blue;
+	position:relative;
+	z-index:+1;
+	
+}
+
+
+
+.my-button h2:hover{
+	
+	color:red;
+	
+}
+
+
+
+.my-button h2{
+	
+-moz-transition:0.5s;
+-webkit-transition:0.5s;
+-o-transition:0.5s;
+-ms-transition:0.5s;
+transition:0.5s;
+	
+}
+
+
+
+.my-button h2:before{
+	
+-moz-transition:0.5s;
+-webkit-transition:0.5s;
+-o-transition:0.5s;
+-ms-transition:0.5s;
+transition:0.5s;
+	
+}
+
+
+
+.my-button h2:after{
+	
+-moz-transition:0.5s;
+-webkit-transition:0.5s;
+-o-transition:0.5s;
+-ms-transition:0.5s;
+transition:0.5s;
+	
+}
+
+
+
+.my-button h2:before{
+	
+	content:"";
+	width:50%;
+	height:100%;
+	background-color:yellow;
+	position:absolute;
+	left:0;
+	top:-100%;
+	z-index:-1;
+	opacity:0;
+	
+}
+
+
+
+.my-button h2:after{
+	
+	content:"";
+	width:50%;
+	height:100%;
+	background-color:violet;
+	position:absolute;
+	right:0;
+	bottom:-100%;
+	z-index:-1;
+	opacity:0;
+	
+}
+
+
+
+.my-button h2:hover:before{
+	
+	top:0%;
+	opacity:1;
+	
+}
+
+
+
+.my-button h2:hover:after{
+	
+	bottom:0%;
+	opacity:1;
+	
+}
+
+

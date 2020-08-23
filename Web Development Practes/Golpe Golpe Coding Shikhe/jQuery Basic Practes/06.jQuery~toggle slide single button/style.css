@@ -1,0 +1,33 @@
+
+#full-are{
+
+	margin:20px 20px;
+	padding:0;
+	
+}
+
+#one{
+	padding-left:120px;
+	
+}
+
+
+#two{
+	
+	cursor:pointer;
+	border:none;
+	background-color:red;
+	color:white;
+	padding:10px;
+	margin-bottom:10px;
+	
+}
+
+#three{
+	
+	width:300px;
+	height:200px;
+	background:violet;
+	display:none;
+	
+}

@@ -1,0 +1,32 @@
+
+*{
+	
+ margin:0 auto;	
+ padding:0px;
+	
+}
+
+
+
+.Images-Black-And-White img{
+	
+	filter:url("data:imgage/svg+xml;utf8,<svg xmlns=\'http://www.w3.org/2000/svg\'><filter id=\'grayscale\'><feColorMatrix type=\'matrix\'values=\'0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0.3333 0.3333 0.3333 0 0 0 0 0 1 0\'/></filter></svg>#grayscale");
+
+
+
+-moz-filter:grayscale(100%);
+-webkit-filter:grayscale(100%);
+-o-filter:grayscale(100%);
+-ms-filter:grayscale(100%);
+filter:grayscale(100%);
+
+
+
+}
+.Images-Black-And-White img:hover{
+
+	filter:none;
+	
+}
+
+

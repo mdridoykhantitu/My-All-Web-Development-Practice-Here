@@ -1,0 +1,39 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+div{
+	
+margin-top:50px;	
+	
+}
+
+
+a{
+
+	letter-spacing:30px;
+	word-spacing:200px;
+	font-size:50px;
+	text-decoration:line-through;
+	text-transform:capitalize;
+	text-shadow:10px 10px 5px black;
+
+	
+}
+
+
+p{
+
+margin-top:50px;
+text-align:justify;
+line-height:1.3em;
+font-variant:small-caps;
+
+}
+
+

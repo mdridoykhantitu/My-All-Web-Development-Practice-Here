@@ -1,0 +1,78 @@
+
+*{
+	
+margin:0;
+padding:0;	
+	
+}
+
+
+
+form{
+	
+	margin:50px;
+	
+}
+
+
+
+label{
+	
+	display:block;
+	margin-bottom:10px;
+	font-size:20px;
+	
+}
+
+
+
+input,select,textarea{
+	
+	width:50%;
+	padding:10px 2%;
+	border:1px solid #ddd;
+	margin-bottom:10px;
+	
+}
+
+
+
+select{
+	
+	width:54%;
+	
+}
+
+
+
+textarea{
+	
+	min-height:100px;
+	
+}
+
+
+
+input[type="submit"]{
+	
+	background:aqua;
+	border:1px solid aqua;
+	width:150px;
+	font-size:15px;
+	cursor:pointer;
+	transition:0.5s;
+	
+}
+
+
+
+input[type="submit"]:hover{
+	
+	background:black;
+	border:1px solid #000;
+	color:#fff;
+	
+}
+
+
+

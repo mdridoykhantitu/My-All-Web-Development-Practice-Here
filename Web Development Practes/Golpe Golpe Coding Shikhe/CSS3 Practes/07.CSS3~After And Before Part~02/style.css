@@ -1,0 +1,89 @@
+
+
+.After-And-Before-Part2{
+	
+	margin-top:200px;
+	text-align:center;
+	padding:0;
+	
+}
+
+
+
+.my-button{
+	
+	font-size:30px;
+	
+}
+
+
+
+.my-button h2{
+	
+	display:inline-block;
+	border:2px solid red;
+	padding:10px 40px;
+	color:blue;
+	position:relative;
+	z-index:+1;
+	
+}
+
+
+
+.my-button h2{
+	
+-moz-transition:0.5s;	
+-webkit-transition:0.5s;	
+-o-transition:0.5s;	
+-ms-transition:0.5s;	
+transition:0.5s;	
+	
+}
+
+
+
+.my-button h2:after{
+	
+-moz-transition:0.5s;	
+-webkit-transition:0.5s;	
+-o-transition:0.5s;	
+-ms-transition:0.5s;	
+transition:0.5s;	
+	
+}
+
+
+
+.my-button h2:hover{
+	
+	color:red;
+	
+}
+
+
+
+.my-button h2:after{
+	
+	content:"";
+	width:0%;
+	height:100%;
+	background-color:black;
+	position:absolute;
+	left:0px;
+	top:0px;
+	z-index:-1;
+	opacity:0;
+	
+}
+
+
+
+.my-button h2:hover:after{
+	
+	width:100%;
+	opacity:1;
+	
+}
+
+

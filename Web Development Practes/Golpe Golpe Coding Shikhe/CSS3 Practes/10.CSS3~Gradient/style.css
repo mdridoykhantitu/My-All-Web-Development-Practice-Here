@@ -1,0 +1,44 @@
+
+
+
+.Position{}
+
+
+
+.box{
+	
+	margin:50px auto;
+	width:300px;
+	height:300px;
+	background:linear-gradient(to right,red,green,blue,yellow,violet,pink,black);
+
+}
+
+
+
+.box h1{
+	
+	text-align:center;
+	padding-top:125px;
+	font-size:30px;
+	color:white;
+	
+}
+
+
+
+.name h2{
+	
+	font-size:80px;
+	text-align:center;
+	background:-webkit-linear-gradient(red,green);
+				-webkit-background-clip:text;
+				-webkit-text-fill-color:transparent;
+	
+	
+	
+}
+
+
+
+

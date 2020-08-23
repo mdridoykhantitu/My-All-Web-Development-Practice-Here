@@ -1,0 +1,346 @@
+
+/*===================Reset Code Area Start==========================*/
+
+*{
+	
+margin:0px;
+padding:0px;
+	
+}
+
+/*===================Reset Code Area End==========================*/
+
+/*===================Full Body Code Area Start==========================*/
+
+#one{
+	
+	max-width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+
+}
+
+.two{
+	
+	margin-top:100px;
+	text-align:center;
+	
+}
+
+.three img{
+	
+	margin-bottom:30px;
+	
+}
+
+.three h1{
+	
+	margin-bottom:30px;
+		
+}
+
+.three p{
+	
+	margin-top:30px;
+	font-size:35px;
+		
+}
+
+.four{
+	
+	text-align:center;
+	margin-top:100px;
+	font-size:20px;
+	
+}
+
+.five {
+	
+	margin: 100px;
+	text-align: center;
+	
+}
+
+.five a img{
+	
+	border-radius:50%;
+	width:150px;
+	height:150px;
+	
+}
+
+.six{
+	
+	margin: 100px;
+	text-align:center;
+	
+}
+
+.six a:link{
+	
+	font-size:25px;
+	border:5px solid violet;
+	padding:5px;
+	background:red;
+	color:white;
+	
+}
+
+
+.six a:visited{
+
+	font-size:25px;
+	padding:5px;
+	background:aqua;
+	color:black;
+	
+}
+
+.six a:hover{
+
+	text-decoration:none;
+	background:blue;
+	color:red;
+	
+}
+
+.seven{
+	
+	margin: 100px;
+	text-align:center;
+
+}
+
+.seven a{
+	
+	margin: 100px;
+	text-align:center;
+	font-size:30px;
+	border:3px solid violet;
+	text-decoration:none;
+	padding:10px;
+	
+}
+
+.seven a:hover{
+	
+
+	border:3px solid red;
+	text-decoration:none;
+	background:blue;
+	color:white;
+
+	
+}
+
+.eight{
+	
+margin:100px;
+text-align:center;
+
+}
+
+.table{
+	
+	width:100%;
+	border-collapse:collapse;
+	
+}
+
+.table tr:nth-child(2n+1){
+	
+	background:violet;
+	
+}
+
+
+.table th{
+	
+	font-size:30px;
+	background:red;
+	color:white;
+	padding:20px;
+	
+}
+
+.table td{
+	
+	text-align:center;
+	border:2px solid brown;
+	padding:10px;
+	font-size:25px;
+	
+}
+
+.Iframe{
+	
+	margin:120px;
+
+	
+}
+
+.Iframe iframe{
+	
+	width:400px;
+	height:300px;
+	border:5px solid red;
+	
+}
+
+.menu1 ul{
+	
+	margin:100px;
+	font-size:30px;
+	list-style:none;
+	
+}
+
+.menu2 ul{
+	
+	margin:100px;
+	font-size:30px;
+	list-style:circle;
+	
+}
+
+.menu3 ul{
+	
+	margin:100px;
+	font-size:30px;
+	
+	
+}
+
+.menu4 ul{
+	
+	margin:100px;
+	font-size:30px;
+	list-style:square;
+	
+}
+
+.menu10{
+	
+	margin:100px;
+	font-size:30px;
+	
+}
+
+.menu20{
+	
+	margin:100px;
+	font-size:40px;
+	
+}
+
+.span50 span{
+	
+	margin:100px;
+	font-size:40px;
+	border:2px solid red;
+
+}
+
+.section100 section{
+	
+	margin:100px;
+	font-size:40px;
+	border:2px solid blue;
+	
+}
+
+.important{
+	
+	margin:150px;
+
+}
+
+.important1 p{
+	
+	font-size:25px;
+	
+}
+
+.important1 input{
+
+	padding:7px;
+	width:50%;
+
+}
+
+.important2 p{
+	
+	font-size:25px;
+	
+}
+
+.important3 p{
+	
+	font-size:25px
+	
+}
+
+.important3 select{
+	
+	font-size:15px;
+	
+}
+
+.important4 p{
+	
+	font-size:25px
+	
+}
+
+.important5 p{
+	
+	font-size:25px
+	
+}
+
+.important5 textarea{
+	
+	width:50%;
+	padding:20px;
+	
+}
+
+.important p{
+	
+	font-size:25px
+	
+}
+
+.important6 input{
+	
+	font-size:15px;
+	padding:5px;
+	width:70px;
+	border:none;
+	background:red;
+	color:white;
+
+}
+
+.important6 input:hover{
+	
+	background:#ddd;
+	color:black;
+	cursor:pointer;
+
+}
+
+
+/*===================Full Body Code Area End==========================*/
+
+/*===================Javascript Code Area Start==========================*/
+
+.javascript{
+	
+	margin:100px;
+	
+}
+
+/*===================Javascript Code Area End==========================*/
+
+

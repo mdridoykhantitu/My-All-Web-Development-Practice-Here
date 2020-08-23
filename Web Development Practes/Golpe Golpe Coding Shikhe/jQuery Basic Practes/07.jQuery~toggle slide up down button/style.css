@@ -1,0 +1,65 @@
+
+*{
+	
+margin:0;
+padding:0;
+	
+}
+
+
+#full{
+	
+	padding:50px;
+	
+}
+
+
+#one{
+	
+	padding-left:70px;
+	
+	
+}
+
+
+#slideupid{
+	
+	padding-top: 20px;
+	padding-left: 35px;
+	padding-bottom: 20px;
+	padding-right: 35px;
+	cursor:pointer;
+	
+}
+
+
+#slidedownid{
+	
+	padding-top: 20px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+	padding-right: 30px;
+	cursor:pointer;	
+	
+}
+
+
+#first{
+	
+	margin-top:20px;
+	width:400px;
+	height:300px;
+	background:red;
+	display:none;
+
+}
+
+
+#first h1{
+	
+	text-align:center;
+	padding-top:120px;
+	
+}
+
+

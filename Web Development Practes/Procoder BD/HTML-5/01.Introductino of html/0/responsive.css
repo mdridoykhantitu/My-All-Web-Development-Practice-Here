@@ -1,0 +1,42 @@
+
+@media screen and (max-width:1024px){
+
+
+	
+.section-area {
+    width: 48%;
+}
+	
+	
+.fourth {
+    width: 50%;
+    
+}
+	
+	
+	
+}
+
+@media screen and (max-width:516px) {
+	
+
+.section-area {
+    width: 95%;
+}
+		
+	
+	
+	.fourth {
+    width: 100%;
+    
+}
+	
+	
+	
+	
+	
+	
+	
+}
+
+

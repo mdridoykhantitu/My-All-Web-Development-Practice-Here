@@ -1,0 +1,372 @@
+
+/*-------------------------------
+Reset Code Section Start
+------------------------------*/
+
+*{
+margin:0;
+padding:0;	
+}
+
+*{
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+	
+}
+
+body{
+	font-family:'roboto' ,sans-serif;
+}
+
+p{
+line-height:25px;
+}
+
+.container{
+	max-width:1170px;
+	margin:0 auto;
+	overflow:hidden;
+	padding-left:20px;	
+	padding-right:20px;	
+}
+
+/*--------------------------------
+Reset Code Section End
+--------------------------------*/
+
+/*--------------------------------
+First Section Start
+--------------------------------*/
+
+#slider{
+	background:url(../images/bbbbbbb.jpg)no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+}
+.overley{
+	margin:0px;
+	padding:0px;
+	background-color:rgba(0, 0, 0, .7);
+}
+.slider-top {
+  margin-top: 20px;
+}
+.logo {
+  float: left;
+  width: 20%;
+}
+.logo img {
+  border-radius: 10%;
+  height: 115px;
+  width: 115px;
+}
+.menu {
+  float: right;
+}
+.menu ul {
+  margin-top: 25px;
+  padding: 0;
+}
+.menu ul li {
+  display: inline-block;
+}
+.menu ul li a {
+  color: green;
+  font-size: 25px;
+  padding-right: 30px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.menu ul li a:hover{
+	color:red;
+}
+
+.slider-content {
+  color: yellow;
+  padding: 150px 0;
+  text-align: center;
+}
+.slider-content h2 {
+  font-size: 40px;
+  margin-bottom: 35px;
+}
+.slider-content h1 {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 2px 1px;
+  font-size: 80px;
+  margin: 0 auto 20px;
+  max-width: 500px;
+  padding: 20px 0px;
+}
+.slider-content h1 span{
+	color:#fff;
+}
+
+.slider-content h3 {
+  font-size: 40px;
+}
+
+/*------------------------------
+First Section End
+------------------------------*/
+
+/*------------------------------
+Secound Section Start
+------------------------------*/
+
+#about-us {
+  background-color: #eaeaea;
+  padding: 80px 0;
+}
+.about-top {
+  text-align: center;
+}
+.about-top h2 {
+  font-size: 45px;
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+.about-top p {
+  margin: 0 auto;
+  max-width: 700px;
+  font-size: 20px;
+  padding-bottom: 15px;
+  color: blue;
+}
+
+.about {
+  float: left;
+  padding: 60px 10px;
+  text-align: center;
+  width: 25%;
+}
+.about i {
+  color: green;
+  font-size: 50px;
+  margin-bottom: 25px;
+}
+.about h2 {
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+.about p{}
+
+
+.about:hover i,
+.about:hover h2{
+	color:red;
+	
+}
+
+/*-------------------------------
+Secound Section End
+-------------------------------*/
+
+/*-------------------------------
+Third Section Start
+-------------------------------*/
+
+#service {
+	background:url(../images/bbbbbbb.jpg)no-repeat;
+	background-attachment:fixed;
+	background-position:center;
+	background-size:cover;
+	background:images (1).jpg;
+	padding: 100px 0;
+}
+.service-top {
+  margin-bottom: 40px;
+  padding: 10px 0;
+  text-align: center;
+}
+.service-top h2 {
+  color: red;
+  font-size: 50px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.service-top p {
+  font-size: 20px;
+  margin: 0 auto;
+  max-width: 700px;
+}
+
+.services {
+  float: left;
+  margin: 5px;
+  max-width: 24%;
+  padding-right: 272px;
+  text-align: center;
+}
+.services img {
+  border-radius: 50px;
+  height: 220px;
+  width: 220px;
+  width:-100%;
+}
+
+/*-------------------------------
+Third Section End
+-------------------------------*/
+
+/*-------------------------------
+Fourth Section Start
+-------------------------------*/
+
+#contact-us {
+  background-color: #bfbfbf;
+  padding: 100px 0;
+}
+.contac-top {
+  text-align: center;
+}
+.contac-top h2 {
+  color: red;
+  font-size: 40px;
+}
+.contac-top p {
+  font-size: 21px;
+  margin: 0 auto;
+  max-width: 900px;
+  padding: 15px 0;
+}
+
+.contact-single {
+  float: left;
+  margin-bottom: 150px;
+  margin-top: 30px;
+  text-align: center;
+  width: 33%;
+}
+.contact-single i {
+  color: green;
+  font-size: 50px;
+}
+.contact-single h2 {
+  color: black;
+  font-size: 30px;
+  padding: 15px 0;
+}
+.contact-single h3 {
+  font-size: 17px;
+}
+.contact-single:hover i,
+.contact-single:hover h2,
+.contact-single:hover h3{
+	color:red;
+}
+
+
+
+
+.form{
+  clear:both;
+}
+.contact-form {
+  float: left;
+  padding-right: 15px;
+  width: 50%;
+  margin-bottom: 100px;
+}
+.contact-form input {
+  margin-bottom: 20px;
+  padding: 12px;
+  width: 100%;
+}
+.message {
+  float: right;
+  width: 50%;
+}
+.message textarea {
+  height: 105px;
+  padding: 25px;
+  width: 100%;
+}
+.message input {
+  height: 45px;
+  margin-top: 17px;
+  padding: 10px;
+  text-transform: uppercase;
+  width: 150px;
+  background-color:green;
+  border:none;
+  color:#fff;
+}
+.message input:hover{
+	background:red;
+	color:#000;
+	border:none;
+	
+}
+
+/*-------------------------------
+Fourth Section End
+-------------------------------*/
+
+/*-------------------------------
+Fiveth Section Start
+-------------------------------*/
+
+#social-icon {
+  background-color: #e4e4e4;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.social-icons i {
+
+  border-radius: 50%;
+  color: white;
+  font-size: 20px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  width: 50px;
+  margin:5px;
+}
+.fa-facebook{
+	background-color:#067FD8;
+}
+.fa-google-plus{
+	background-color:#1a7799;
+}
+.fa-linkedin{
+	background-color:#e82f3f;
+}
+.fa-twitter-square{
+	background-color:#e92fa8;
+}
+.fa-skype{
+	background-color:#e9898b;
+}
+.fa-dribbble-square{
+	background-color:#e9de1c;
+}
+
+.social-icons i:hover{
+	background-color:black;
+	color:red;
+}
+
+/*-------------------------------
+Fiveth Section End
+-------------------------------*/
+
+/*-------------------------------
+Footer Section Start
+------------------------------*/
+
+#footer {
+  background-color: #808383;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 15px 0;
+  text-align: center;
+}
+
+/*------------------------------
+Footer Section End
+-----------------------------*/
